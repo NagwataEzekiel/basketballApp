@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container h3{
+    color: white;
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+
+.boxContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.boxContainer .box{
+     display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 155px;
+   height: 120px;
+   background: #080001;
+   border-radius: 5px;
+   color: #F94F6D;
+}
+
+.boxContainer .box h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px
+}
+
+.winnerClass{
+    color: green;
+}
+
+.drawClass{
+    color:red;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.btnContainer .btn{
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background: #1B244A;
+    color:#9AABD8;
+    font-family: Cursed Timer ULiL;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+
+.newContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.newbox{
+     width: 170px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background: #1B244A;
+    color:#9AABD8;
+    font-family: Cursed Timer ULiL;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+
+.newGame{
+    width: 100%;
+    height:100%;
+    background: transparent;
+    border: none;
+    color:#9AABD8;
+}
